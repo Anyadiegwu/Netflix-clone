@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#home-page-body{
+    background-color: black;
+    color: white;
+}
+#home-page-header{
+    background-image: url(Images/MoviePoster.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#home-page-nav{
+    background-color: black;
+    display: flex;
+    /* height: 60px; */
+}
+#home-page-f-sect{
+    display: flex;
+}
+#home-page-sec-sect{
+    display: flex;
+    justify-content: end;
+    border: 1px solid red;
+}
+.sec-sect-class{
+    margin-right: 30px;
+}
+a{
+    text-decoration: none;
+}

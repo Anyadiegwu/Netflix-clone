@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#landingpg{
+    background-color: black;
+    color: white;
+}
+#header{
+    height: 500px;
+    background-image: url(Images/Frame.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+nav{
+    display: flex;
+}
+#logo{
+   position: absolute;
+   top: 2%;
+   left: 2%;
+}
+.firstbtn{
+    width: 150px;
+    height: 30px;
+    display: flex;
+    margin: 5px;
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    /* justify-content: end;
+    align-items: end;
+    align-content: end; */
+}
+.translate{
+    width: 100px;
+    height: 40px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.4);
+    border: 1px solid #AAAAAA;
+    border-radius: 2px;
+    margin-right: 20px;
+}
+#sign-in{
+    width: 51px;
+    Height: 20px;
+    display: flex;
+    /* margin-left: 10px; */
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+#headtag{
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    width: 70em;
+    height: 25em;
+    display: grid;
+    gap: 1em;
+    align-items: center; 
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+#headtag-writeup{
+    height: 141px;
+    width: 686px;
+    font-style: Netflix Sans;
+    font-weight: 700;
+    font-size: 64px;
+    text-align: center;
+}
+#headtag-writeup h3{
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+#headtag-writeup p{
+    font-weight: 500;
+    font-size: 19px;
+}
+.email-div{
+    display: flex;
+}
+.email{
+    height: 70px;
+}
+[data-type]{
+    width: 500px;
+}
+[data-type="f-btn"]{
+    width: 247px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.writing{
+    display: grid;
+    gap: 1em;
+    align-items: center; 
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+.whole{
+    display: flex;
+} 
+.h2{
+    font-weight: 700;
+    font-size: 50px;
+}
+.p-tag{
+    font-weight: 400;
+    font-size: 26px;
+}
+.q-section{
+    text-align: center;
+    margin-top: 50px;
+}
+summary{
+    width: 515px;
+    height: 55px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    background-color:  #303030;
+}
+#q-section{
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+.q-section section p{
+    font-weight: 500;
+    font-size: 19px;
+}
+hr{
+    height: 7px;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+/* .btn{
+    width: 400px;
+    height: 50px;
+    justify-content: start;
+    align-items: start;
+    align-content: start;
+    background-color: aliceblue;
+} */
+.f-section{
+    height: 435px;
+    display: grid;
+}   
+button{
+    background-color: red;
+}   
+a{
+    text-decoration: none;
+}

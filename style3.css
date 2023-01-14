@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-wrap: wrap;
+}
+nav{
+    position: fixed;
+    top: 2%;
+    left: 2%;
+}  
+#section{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+img{
+  display: flex;
+}
+div{
+  margin: 15px;
+}
+div p{
+  color: white;
+  margin-top: 15px;
+}
+.more{
+  margin: 15px;
+}
+.h3{
+  color: white;
+  font-family: Netflix Sans;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 82px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.help{
+  color: #808080;
+  width: 220px;
+  height: 32px;
+  text-align: center;
+  margin-top: 10px;
+  padding-top: 5px;
+  border: 1px solid #808080;
+}
+#help{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 800px) {
+  nav{
+    position: relative;
+    left: 2%;
+  }
+}
+  /* section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 0.5em;
+    border: 2px solid red;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    color: #808080;  
+    margin: 20px 0px 20px 0px;
+    }
+  main{
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  @media (max-width: 600px) {
+    main{
+        display: flex;
+    }
+  }
+  main .h3{
+    color: white;
+    font-family: Netflix Sans;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 82px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    }
+  div{
+    display: block;
+  }
+  .more{
+    margin-left: 10px;
+  }
+  .help{
+    color: #808080;
+    width: fit-content;
+    padding: 5px 15px 5px 15px;
+    border: 1px solid #808080;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+  }  */

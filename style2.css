@@ -1,0 +1,23 @@
+#login-cover{
+    background-image: url(Images/background-2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+   opacity: 1;
+}
+section{
+    /* text-align: center; */
+    display: grid;
+    border: 5px solid red;
+    width: 350px;
+    height: 500px;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    padding-left: 50px;
+}
+#div{
+    display: grid;
+    width: 300px;
+    height: 150px;
+    gap: 1em;
+}
